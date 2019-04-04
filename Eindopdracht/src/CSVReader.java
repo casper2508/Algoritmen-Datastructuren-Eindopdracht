@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 /*
-    A class for converting data from Pokemon.csv into several Java data structures
+    A class for converting data from the Pokemon.csv file into several Java data structures
 */
 public class CSVReader {
 

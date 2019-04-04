@@ -37,17 +37,15 @@ class Pokemon {
         this.legendary = legendary;
     }
 
-    //Method for printing all information about the Pokemon
+    //Method for printing all the information about the Pokemon
     public void printInfo() {
-        System.out.println(
-            number + " " + name + " " +
-            type1 + " " + type2 + " " +
-            total + " " + HP + " " +
-            attack + " " + defense + " " +
-            spAttack + " " + spDefense + " " +
-            speed + " " + gen + " " +
-            legendary
+        System.out.printf(
+            "%-5s %-30s %-10s %-10s %-10s %-10s %-10s %-10s %-10s %-10s %-10s %-10s %-10s",
+            number, name, type1, type2, total, HP,
+            attack, defense, spAttack, spDefense,
+            speed, gen, legendary
         );
+        System.out.println();
     }
 
     //Getters for all fields
